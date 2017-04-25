@@ -8,7 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button Content="You just got Litt up" HorizontalAlignment="Left" Height="54" Margin="453,117,0,0" VerticalAlignment="Top" Width="174" PointerPressed="Button_PointerPressed" ClickMode="Press"/>
+        <Button Content="You just got Litt up" HorizontalAlignment="Left" Height="54" Margin="121,149,0,0" VerticalAlignment="Top" Width="174" ClickMode="Press" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="38,30,0,0" TextWrapping="Wrap" Text="Windows IOT Simple LED with a Class" VerticalAlignment="Top" Height="68" Width="574" FontSize="20"/>
+        <Button x:Name="btn_2" Content="Turn me off" HorizontalAlignment="Left" Height="54" Margin="121,243,0,0" VerticalAlignment="Top" Width="174" ClickMode="Press" Click="btn_2_Click"/>
+        <TextBox x:Name="tb_what_is_happening" HorizontalAlignment="Left" Margin="164,394,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="68" Width="363"/>
 
     </Grid>
 </Page>
